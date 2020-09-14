@@ -1,4 +1,4 @@
-# :earth_africa: fedora [![Build Status](https://travis-ci.org/bentaljaard/fedora.svg?branch=fedora32)](https://travis-ci.org/bentaljaard/fedora)
+# :earth_africa: fedora32 [![Build Status](https://travis-ci.org/bentaljaard/fedora.svg?branch=fedora32)](https://travis-ci.org/bentaljaard/fedora)
 
 ![](https://raw.githubusercontent.com/multiarch/dockerfile/master/logo.jpg)
 
