@@ -40,7 +40,7 @@ script:
 
 after_success:
     - |
-      if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+      if [[ $TRAVIS_BRANCH == 'fedora32' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
           docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" "$DOCKER_SERVER" && \
               docker push $DOCKER_REPO
       fi
